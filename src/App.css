@@ -1,0 +1,65 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 60%;
+}
+
+form{
+  margin: auto;
+  display: flex;
+  gap: 10px;
+  height: 40px;
+}
+
+form input{
+  flex-basis: 80%;
+  border-radius: 9px;
+  outline: none;
+  padding-left: 1rem;
+  border: 1px solid rgb(191, 191, 191);
+  font-size: 18px;
+}
+form button{
+  flex-basis: 20%;
+  border-radius: 9px;
+  border: 1px solid rgb(191, 191, 191);
+  background-color: rgb(223, 249, 223);
+}
+
+.outerDiv{
+  margin: auto;
+}
+.outerDiv ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.outerDiv ul li{
+  color: white;
+  background-color: rgb(144, 144, 144);
+  padding: 10px;
+  text-align: left;
+  position: relative;
+  font-size: 25px;
+  margin-bottom: 20px;
+  border-radius: 9px;
+}
+
+.outerDiv ul li span{
+  right: 20px;
+  position: absolute;
+  cursor: pointer;
+}
+.completetodo{
+  text-decoration: line-through;
+  color: rgb(137, 53, 53) !important;
+}
+
+
+
+
+
+
